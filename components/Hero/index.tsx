@@ -18,9 +18,9 @@ const Hero = () => {
                   Bintuni Excellence — Solusi Event Profesional & Produk Lokal Berkualitas
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-justify">
-                  Kami hadir sebagai penyedia layanan terpadu untuk kebutuhan acara dan pengembangan produk lokal. Mendukung
-                  berbagai event melalui <b>Event Organizer - Acerpro</b> kami membantu perencanaan dan pelaksanaan event secara 
-                  profesional, kami juga menyediakan jasa <b>Fotografer dan Videografer - Bintuneo Media</b>.
+                  Kami hadir sebagai penyedia layanan terpadu untuk kebutuhan acara dan pengembangan produk lokal.
+                  Melalui layanan Event Organizer by <b>Acerpro</b>, kami membantu merancang dan menjalankan event secara 
+                  profesional dari awal hingga akhir. Kami juga menyediakan layanan Fotografer & Videografer by <b>Bintuneo Media</b> untuk dokumentasi berkualitas tinggi yang siap mendukung kebutuhan visual acara maupun promosi Anda.
                   <br /><br />
                   Selain itu, kami juga menghadirkan <b>produk unggulan Bintuni</b> berupa pala, buah merah, 
                   dan minyak buah merah — sumber alami penuh manfaat yang kami dorong untuk dikenal lebih luas 
