@@ -32,8 +32,9 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark text-justify">
-                  <b>Bintuneo</b> hadir untuk memudahkan Anda menemukan layanan Fotografi, Wedding Organizer, Event Organizer, 
-                  serta menghadirkan produk lokal unggulan Agromos. Dukungan Anda membantu memajukan produk dan layanan Bintuni.
+                  <b>Bintuneo</b> menyediakan layanan Fotografi, Videografi, dan Event Organizer yang dikemas secara profesional. 
+                  Kami juga menghadirkan produk lokal unggulan seperti pala, buah merah, dan minyak buah merah. 
+                  Bersama kami, dukung kemajuan kreativitas dan potensi lokal Bintuni.
                 </p>
                 <div className="flex items-center">
                   <a

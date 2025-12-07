@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     icon: "/images/logo b.jpg",
   },
   openGraph: {
-    title: "Tentang Bintuneo – Photographer, Videographer, WO, EO & Produk Agromos Bintuni",
+    title: "Tentang Bintuneo – Photographer, Videographer, EO & Produk lokal  Bintuni",
     description:
-      "Kenali profil Bintuneo sebagai penyedia jasa fotografer, WO dan EO serta pengembangan produk Agromos khas Bintuni.",
+      "Kenali profil Bintuneo sebagai penyedia jasa fotografer, Event Organizer serta pengembangan produk khas Bintuni.",
     url: "https://bintuneo.com/about", // nanti diganti setelah punya domain
     images: "/images/logo b.jpg",
     type: "website"
@@ -40,7 +40,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Tentang Kami"
-        description="Kenali lebih dekat Bintuneo. Kami fokus pada pengembangan produk lokal Agromos (Pala, Buah Merah, Minyak Buah Merah) serta penyedia jasa profesional. Jasa meliputi Event Organizer (EO) oleh Acerpro dan Photographer/Videographer oleh Bintuneo Media."
+        description="Kenali lebih dekat Bintuneo. Kami fokus pada pengembangan produk lokal (Pala, Buah Merah, Minyak Buah Merah) serta penyedia jasa profesional. Jasa meliputi Event Organizer (EO) oleh Acerpro dan Photographer/Videographer oleh Bintuneo Media."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

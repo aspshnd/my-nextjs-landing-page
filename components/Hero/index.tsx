@@ -15,13 +15,16 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Solusi Kreatif & Produk Lokal Terbaik Bintuni
+                  Bintuni Excellence — Solusi Event Profesional & Produk Lokal Berkualitas
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Kami menyediakan layanan Fotografi, Wedding Organizer, Event Organizer, 
-                  serta produk unggulan Agromos (Sirup Buah Pala, Sirup Buah Nanas, Selai Nanas, 
-                  Bubuk Buah Pala, dan Stik Buah Merah) untuk mendukung kebutuhan acara dan bisnis Anda. 
-                  Temukan layanan profesional dan produk lokal berkualitas di sini!
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-justify">
+                  Kami hadir sebagai penyedia layanan terpadu untuk kebutuhan acara dan pengembangan produk lokal. Mendukung
+                  berbagai event melalui <b>Event Organizer - Acerpro</b> kami membantu perencanaan dan pelaksanaan event secara 
+                  profesional, kami juga menyediakan jasa <b>Fotografer dan Videografer - Bintuneo Media</b>.
+                  <br /><br />
+                  Selain itu, kami juga menghadirkan <b>produk unggulan Bintuni</b> berupa pala, buah merah, 
+                  dan minyak buah merah — sumber alami penuh manfaat yang kami dorong untuk dikenal lebih luas 
+                  dan menjadi kebanggaan daerah.
                 </p>
               </div>
             </div>

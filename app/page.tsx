@@ -8,18 +8,20 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bintuneo – Fotografer, WO, EO & Produk Agromos Bintuni",
+  title: "Bintuneo – Fotografer, Videografer, EO & Produk lokal Bintuni",
   description:
-    "Bintuneo adalah landing page layanan fotografer, Wedding Organizer (WO), Event Organizer (EO) dan tempat memperkenalkan produk Agromos khas Bintuni seperti sirup pala, sirup nanas, selai nanas, bubuk pala, dan stik buah merah.",
+    "Bintuneo adalah landing page layanan fotografer, Event Organizer (EO) dan tempat memperkenalkan produk Bintuni seperti Pala, Buah Merah, Minyak Buah Merah.",
   keywords: [
     "Fotografer Bintuni",
-    "Wedding Organizer Papua Barat",
-    "WO Bintuni",
-    "EO Papua Barat",
+    "Videografer Bintuni",
+    "Buah Pala Bintuni",
+    "Buah Pala Papua Barat",
+    "Buah Merah Papua Barat",
+    "Buah Merah Bintuni",
+    "Minyak Buah Merah Papua Barat",
+    "Minyak Buah Merah Bintuni",
+    "Event Organizer Papua Barat",
     "Event Organizer Bintuni",
-    "Produk Agromos",
-    "Sirup buah pala",
-    "Sirup buah nanas",
     "UMKM Bintuni",
     "Bintuneo"
   ],
