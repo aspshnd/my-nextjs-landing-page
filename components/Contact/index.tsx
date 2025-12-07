@@ -1,0 +1,110 @@
+"use client";
+
+const Contact = () => {
+  const PHONE_NUMBER = "628XXXXXXXXXX"; 
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+
+    const text = `Halo, saya *${name}*.\nEmail: ${email}\n\n${message}`;
+    const url = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(text)}`;
+
+    window.open(url, "_blank");
+  };
+
+  return (
+    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+      <div className="container">
+        <div className="-mx-4 flex flex-wrap">
+          <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
+            <div className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+                 data-wow-delay=".15s">
+
+              <h2 className="mb-3 text-3xl font-bold text-black dark:text-white">
+                Hubungi Kami
+              </h2>
+              <p className="mb-12 text-base font-medium text-body-color text-justify">
+                Kami terbuka untuk kritik, saran, serta peluang kerja sama dalam pengembangan layanan dan kolaborasi bisnis.  
+                Silakan hubungi kami melalui formulir atau WhatsApp. Masukan Anda sangat berarti bagi perkembangan kami.
+              </p>
+
+              <form onSubmit={handleSubmit}>
+                <div className="-mx-4 flex flex-wrap">
+
+                  {/* NAMA */}
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label htmlFor="name" className="mb-3 block text-sm font-medium text-dark dark:text-white">
+                        Nama Anda
+                      </label>
+                      <input
+                        id="name"
+                        name="name"
+                        required
+                        type="text"
+                        placeholder="Masukkan nama anda"
+                        className="w-full rounded-sm border bg-[#f8f8f8] dark:bg-[#2C303B] px-6 py-3 text-base focus:border-primary outline-none"
+                      />
+                    </div>
+                  </div>
+
+                  {/* EMAIL */}
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label htmlFor="email" className="mb-3 block text-sm font-medium text-dark dark:text-white">
+                        Email
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        required
+                        type="email"
+                        placeholder="Masukkan email anda"
+                        className="w-full rounded-sm border bg-[#f8f8f8] dark:bg-[#2C303B] px-6 py-3 text-base focus:border-primary outline-none"
+                      />
+                    </div>
+                  </div>
+
+                  {/* PESAN */}
+                  <div className="w-full px-4">
+                    <div className="mb-8">
+                      <label htmlFor="message" className="mb-3 block text-sm font-medium text-dark dark:text-white">
+                        Pesan Anda
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        required
+                        rows={5}
+                        placeholder="Tulis kritik, saran, atau ide kerja sama Anda di sini"
+                        className="w-full resize-none rounded-sm border bg-[#f8f8f8] dark:bg-[#2C303B] px-6 py-3 text-base focus:border-primary outline-none"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div className="w-full px-4">
+                    <button
+                      type="submit"
+                      className="w-full rounded-sm bg-green-500 py-4 text-white font-medium text-base hover:bg-green-600 transition"
+                    >
+                      Kirim via WhatsApp 
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          {/* KOLOM KANAN BISA DIISI MAP / INFO ALAMAT */}
+          <div className="w-full px-4 lg:w-5/12 xl:w-4/12"></div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
