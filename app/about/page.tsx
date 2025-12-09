@@ -41,6 +41,19 @@ export const metadata: Metadata = {
   },
 };
 
+const AboutPage = () => {
+  return (
+    <>
+      <Breadcrumb
+        pageName="Tentang Kami"
+        description="Bintuneo adalah sebuah entitas yang didirikan dengan tujuan mengintegrasikan potensi lokal Papua Barat dengan penyediaan jasa profesional berstandar tinggi. Kami bersemangat untuk mengangkat nilai komoditas unggulan daerah sekaligus memastikan kualitas eksekusi terbaik dalam setiap proyek yang kami tangani."
+      />
+      <AboutSectionOne content={aboutContent}/>
+      {/* <AboutSectionTwo content={aboutContent}/> */}
+    </>
+  );
+};
+
 // Data konten yang direkomendasikan untuk digunakan dalam AboutSectionOne dan AboutSectionTwo
 export const aboutContent = {
   // 1. Pengantar Identitas Bintuneo Group
@@ -73,19 +86,6 @@ export const aboutContent = {
         "Bintuneo Media berfokus pada Visual Sinematik. Kami menyediakan layanan fotografer dan videografer profesional untuk dokumentasi proyek bisnis, liputan acara spesial, dan kebutuhan visual pribadi, dengan komitmen pada kualitas storytelling dan standar sinematik tinggi.",
     },
   ],
-};
-
-const AboutPage = () => {
-  return (
-    <>
-      <Breadcrumb
-        pageName="Tentang Kami"
-        description="Bintuneo adalah sebuah entitas yang didirikan dengan tujuan mengintegrasikan potensi lokal Papua Barat dengan penyediaan jasa profesional berstandar tinggi. Kami bersemangat untuk mengangkat nilai komoditas unggulan daerah sekaligus memastikan kualitas eksekusi terbaik dalam setiap proyek yang kami tangani."
-      />
-      <AboutSectionOne content={aboutContent}/>
-      {/* <AboutSectionTwo content={aboutContent}/> */}
-    </>
-  );
 };
 
 export default AboutPage;
