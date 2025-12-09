@@ -5,22 +5,25 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Bintuneo – UMKM, WO/EO & Fotografi Bintuni",
+  title: "Layanan & Produk | Bintuneo – Fotografer, Videografer, EO & Produk lokal Bintuni",
   description:
-    "Blog resmi Bintuneo — Informasi mengenai jasa fotografi, Wedding Organizer (WO), Event Organizer (EO), serta produk UMKM Agromos dari Papua Barat Bintuni.",
+    "Bintuneo adalah landing page layanan fotografer, Event Organizer (EO) dan tempat memperkenalkan produk Bintuni seperti Pala, Buah Merah, Minyak Buah Merah.",
   keywords: [
+     "Kabupaten Teluk Bintuni",
+    "Fotografer Bintuni",
+    "Videografer Bintuni",
+    "Buah Pala Bintuni",
+    "Buah Pala Papua Barat",
+    "Buah Merah Papua Barat",
+    "Buah Merah Bintuni",
+    "Minyak Buah Merah Papua Barat",
+    "Minyak Buah Merah Bintuni",
+    "Event Organizer Papua Barat",
+    "Event Organizer Bintuni",
+    "UMKM Bintuni",
     "Bintuneo",
-    "Fotografi Bintuni",
-    "WO Bintuni",
-    "EO Bintuni",
-    "Agromos",
-    "UMKM Papua Barat",
-    "Sirup pala",
-    "Sirup nanas",
-    "Selai nanas",
-    "Buah merah",
-    "Papua Barat",
-    "Bintuni"
+    "Bintuneo Media",
+    "Acerpro"
   ],
   authors: [{ name: "Bintuneo" }],
   openGraph: {
@@ -48,8 +51,8 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog"
-        description="Kumpulan artikel dan tulisan yang dikurasi untuk memberikan insight dan pengetahuan mendalam dalam berbagai topik."
+        pageName="Layanan & Produk"
+        description="Temukan solusi di Bintuneo: Mulai dari perencanaan event profesional, dukungan dokumentasi visual premium, hingga pasokan komoditas bahan baku terbaik dari Papua."
       />
 
       <section className="pb-[120px] pt-[120px]">

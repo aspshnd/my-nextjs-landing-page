@@ -1,6 +1,14 @@
 import { getImagePath } from "@/lib/utils";
-import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+
+interface AboutContentProps {
+  content: {
+    introduction: string;
+    vision: string;
+    mission: string[];
+    pillars: { title: string; description: string }[];
+  };
+}
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -8,69 +16,46 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
+const List = ({ text }: { text: string }) => (
+  <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+    <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+      {checkIcon}
+    </span>
+    {text}
+  </p>
+);
 
+const AboutSectionOne = ({ content }: AboutContentProps) => {
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="pt-2 md:pt-2 lg:pt-4">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
 
-              <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
+          {/* VISI & MISI */}
+          <div className="w-full px-2 max-w-3xl text-justify mb-12">
+            <h3 className="text-xl font-bold text-primary mb-2">Visi</h3>
+            <p className="text-body-color mb-6">{content.vision}</p>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src={getImagePath("/images/about/about-image.svg")}
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src={getImagePath("/images/about/about-image-dark.svg")}
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
-            </div>
+            <h3 className="text-xl font-bold text-primary mb-2">Misi</h3>
+            {content.mission.map((item, idx) => (
+              <List key={idx} text={item} />
+            ))}
           </div>
-        </div>
+
+                  {/* PILARS / 3 CARD GRID */}
+          <div className="w-full px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-justify">
+            {content.pillars.map((pillar, idx) => (
+              <div
+                key={idx}
+                className="p-6 border rounded-lg shadow-sm hover:shadow-md transition"
+              >
+                <h4 className="text-lg font-bold text-primary mb-3">
+                  {pillar.title}
+                </h4>
+                <p className="text-body-color">{pillar.description}</p>
+              </div>
+            ))}
+          </div>
+
       </div>
     </section>
   );

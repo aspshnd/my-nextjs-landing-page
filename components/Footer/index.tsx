@@ -33,7 +33,7 @@ const Footer = () => {
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark text-justify">
                   <b>Bintuneo</b> menyediakan layanan Fotografi, Videografi, dan Event Organizer yang dikemas secara profesional. 
-                  Kami juga menghadirkan produk lokal unggulan seperti pala, buah merah, dan minyak buah merah. 
+                  Kami juga menghadirkan produk lokal unggulan seperti buah pala, buah merah, dan minyak buah merah. 
                   Bersama kami, dukung kemajuan kreativitas dan potensi lokal Bintuni.
                 </p>
                 <div className="flex items-center">

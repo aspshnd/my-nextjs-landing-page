@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "Bintuneo adalah landing page layanan fotografer, Event Organizer (EO) dan tempat memperkenalkan produk Bintuni seperti Pala, Buah Merah, Minyak Buah Merah.",
   keywords: [
+    "Kabupaten Teluk Bintuni",
     "Fotografer Bintuni",
     "Videografer Bintuni",
     "Buah Pala Bintuni",
@@ -23,12 +24,14 @@ export const metadata: Metadata = {
     "Event Organizer Papua Barat",
     "Event Organizer Bintuni",
     "UMKM Bintuni",
-    "Bintuneo"
+    "Bintuneo",
+    "Bintuneo Media",
+    "Acerpro"
   ],
   openGraph: {
-    title: "Bintuneo – Layanan Fotografi, WO, EO & Produk Agromos Bintuni",
+    title: "Bintuneo – Layanan Fotografi, Videografi, Event Organizer & Produk Lokal Bintuni",
     description:
-      "Platform untuk memudahkan warga Papua Barat menemukan fotografer, Wedding Organizer (WO), Event Organizer (EO) serta memperkenalkan produk lokal Agromos.",
+      "Platform untuk memudahkan warga Papua Barat menemukan fotografer, Videografi, Event Organizer (EO) serta memperkenalkan produk lokal Bintuni.",
     url: "https://bintuneo.com", // nanti bisa diubah setelah punya domain
     images: [
       {
@@ -54,8 +57,6 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <AboutSectionOne />
-      <AboutSectionTwo />
       <Blog />
       <Contact />
     </>

@@ -8,17 +8,22 @@ export const metadata: Metadata = {
   description:
     "Hubungi Bintuneo untuk layanan Fotografi, Wedding Organizer (WO), Event Organizer (EO), serta pemesanan produk Agromos seperti sirup pala, sirup nanas, selai nanas, bubuk pala, dan stik buah merah. Kami siap melayani warga Papua Barat khususnya Bintuni.",
   keywords: [
-    "Bintuneo",
-    "Jasa Fotografi Bintuni",
-    "Wedding Organizer Papua Barat",
+    "Kabupaten Teluk Bintuni",
+    "Fotografer Bintuni",
+    "Videografer Bintuni",
+    "Buah Pala Bintuni",
+    "Buah Pala Papua Barat",
+    "Buah Merah Papua Barat",
+    "Buah Merah Bintuni",
+    "Minyak Buah Merah Papua Barat",
+    "Minyak Buah Merah Bintuni",
+    "Event Organizer Papua Barat",
     "Event Organizer Bintuni",
-    "Agromos",
-    "Sirup Pala",
-    "Sirup Nanas",
-    "Selai Nanas",
-    "Bubuk Pala",
-    "Stik Buah Merah",
-    "Kontak Bintuneo"
+    "Kontak Bintuneo",
+    "UMKM Bintuni",
+    "Bintuneo",
+    "Bintuneo Media",
+    "Acerpro"
   ],
   icons: {
     icon: "/images/logo b.jpg",

@@ -4,45 +4,48 @@ import { Blog } from "@/types/blog";
 const getBlogData = (): Blog[] => [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Acerpro Event Organizer: Jaminan Eksekusi Acara Sempurna.",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: getImagePath("/images/blog/blog-01.jpg"),
+      "Jelajahi portofolio lengkap event yang telah sukses kami eksekusi. Bukti nyata perencanaan dan kelancaran pelaksanaan Acerpro.",
+    image: getImagePath("/images/blog/event-01.jpg"),
     author: {
-      name: "Samuyl Joshi",
-      image: getImagePath("/images/blog/author-01.png"),
-      designation: "Graphic Designer",
+      name: "Acerpro",
+      image: getImagePath("/images/blog/logo-acerpro.jpg"),
+      designation: "Event Organizer",
     },
-    tags: ["creative"],
+    tags: ["Event Organizer (Acerpro)"],
     publishDate: "2025",
+    url: "/blog-details/acerpro"
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Katalog Komoditas: Pala, Buah Merah, dan Minyak Buah Merah Asli Papua",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: getImagePath("/images/blog/blog-02.jpg"),
+      "Dapatkan spesifikasi teknis, detail produk, dan manfaat komoditas. Informasi penting untuk keputusan pembelian industri Anda.",
+    image: getImagePath("/images/blog/pala-01.jpeg"),
     author: {
-      name: "Musharof Chy",
-      image: getImagePath("/images/blog/author-02.png"),
-      designation: "Content Writer",
+      name: "Bintuneo",
+      image: getImagePath("/images/blog/logo-bintuneo.jpg"),
+      designation: "Komoditas Bintuni",
     },
-    tags: ["computer"],
+    tags: ["Produk Komoditas"],
     publishDate: "2025",
+    url: "/blog-details/komoditas"
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Visual Sinematik: Galeri Karya Bintuneo Media",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: getImagePath("/images/blog/blog-03.jpg"),
+      "Lihat bagaimana setiap momen diubah menjadi narasi visual berstandar sinematik tinggi. Mencakup dokumentasi proyek bisnis, liputan acara spesial, dan kebutuhan visual pribadi.",
+    image: getImagePath("/images/blog/visual-01.jpg"),
     author: {
-      name: "Lethium Deo",
-      image: getImagePath("/images/blog/author-03.png"),
-      designation: "Graphic Designer",
+      name: "Bintuneo Media",
+      image: getImagePath("/images/blog/logo-bintuneo1.png"),
+      designation: "Visual Media",
     },
-    tags: ["design"],
+    tags: ["Visual Media (Bintuneo Media)"],
     publishDate: "2025",
+    url: "/blog-details/bintuneo-media"
   },
 ];
 export default getBlogData;

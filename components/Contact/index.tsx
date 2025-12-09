@@ -89,7 +89,7 @@ const Contact = () => {
                   <div className="w-full px-4">
                     <button
                       type="submit"
-                      className="w-full rounded-sm bg-green-500 py-4 text-white font-medium text-base hover:bg-green-600 transition"
+                      className="w-full rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover"
                     >
                       Kirim via WhatsApp 
                     </button>
