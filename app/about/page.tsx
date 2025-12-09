@@ -55,7 +55,7 @@ const AboutPage = () => {
 };
 
 // Data konten yang direkomendasikan untuk digunakan dalam AboutSectionOne dan AboutSectionTwo
-export const aboutContent = {
+const aboutContent = {
   // 1. Pengantar Identitas Bintuneo Group
   introduction:
     "Bintuneo Group adalah sebuah entitas yang unik, didirikan dengan tujuan mengintegrasikan potensi lokal Papua Barat dengan penyediaan jasa profesional berstandar tinggi. Kami bersemangat untuk mengangkat nilai komoditas unggulan daerah sekaligus memastikan kualitas eksekusi terbaik dalam setiap proyek yang kami tangani.",
