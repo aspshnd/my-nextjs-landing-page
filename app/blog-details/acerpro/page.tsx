@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Acerpro — Portofolio Event Organizer Bintuni | Bintuneo",
     description:
       "Portofolio resmi Acerpro sebagai EO Bintuni. Menangani berbagai event kreatif dan kegiatan publik dengan pengelolaan rapi dan hasil dokumentasi maksimal.",
-    url: "https://bintuneo.id/about-details/acerpro",
+    url: "https://bintuneo.id/blog-details/acerpro",
     images: [
       {
         url: "/images/logo-b.jpg",
@@ -35,7 +35,30 @@ export const metadata: Metadata = {
     type: "article"
   },
   icons: { icon: "/images/logo-b.jpg" },
-  robots: { index: true, follow: true }
+  robots: { index: true, follow: true },
+  other: {
+    "script:ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://bintuneo.id/#organization",
+      "name": "Bintuneo",
+      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
+      "url": "https://bintuneo.id",
+      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "description":
+        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Teluk Bintuni",
+        "addressRegion": "Papua Barat",
+        "addressCountry": "ID"
+      },
+      "areaServed": "Papua Barat",
+      "sameAs": [
+        "https://www.instagram.com/bintuneo"
+      ]
+    })
+  }
 };
 
 

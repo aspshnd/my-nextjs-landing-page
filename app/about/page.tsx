@@ -41,6 +41,29 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "script:ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://bintuneo.id/#organization",
+      "name": "Bintuneo",
+      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
+      "url": "https://bintuneo.id",
+      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "description":
+        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Teluk Bintuni",
+        "addressRegion": "Papua Barat",
+        "addressCountry": "ID"
+      },
+      "areaServed": "Papua Barat",
+      "sameAs": [
+        "https://www.instagram.com/bintuneo"
+      ]
+    })
+  }
 };
 
 
@@ -49,7 +72,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Tentang Kami"
-        description="Bintuneo adalah sebuah entitas yang didirikan dengan tujuan mengintegrasikan potensi lokal Papua Barat dengan penyediaan jasa profesional berstandar tinggi. Kami bersemangat untuk mengangkat nilai komoditas unggulan daerah sekaligus memastikan kualitas eksekusi terbaik dalam setiap proyek yang kami tangani."
+        description="Bintuneo berdiri sebagai ruang kreatif dan produksi visual yang mendukung geliat ekonomi kreatif serta pengembangan komoditas di Teluk Bintuni. Selain menyediakan jasa foto dan videografi profesional untuk event, produk, hingga dokumentasi kegiatan, Bintuneo juga berperan dalam memperkenalkan komoditas unggulan daerah seperti pala dan buah merah yang menjadi identitas lokal Papua Barat. Melalui produksi konten dan branding, kami membantu UMKM Bintuni meningkatkan daya saing di pasar digital."
       />
       <AboutSectionOne content={aboutContent}/>
       {/* <AboutSectionTwo content={aboutContent}/> */}

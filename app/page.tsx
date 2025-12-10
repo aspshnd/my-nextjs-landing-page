@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Bintuneo – Fotografer & Videografer Profesional, Event Organizer (EO) & Produk Lokal Papua Barat",
   description:
-    "Bintuneo menyediakan layanan fotografer dan videografer profesional, Event Organizer (EO), serta memasarkan komoditas unggulan Teluk Bintuni: Pala, Buah Merah & Minyak Buah Merah. Satu platform untuk dokumentasi event dan produk lokal Papua Barat.",
+    "Bintuneo menyediakan layanan fotografer dan videografer profesional, Event Organizer (EO), serta memasarkan komoditas unggulan Teluk Bintuni seperti Pala, Buah Merah & Minyak Buah Merah. Platform dokumentasi event dan pusat informasi produk lokal Papua Barat.",
   keywords: [
     "Fotografer Bintuni",
     "Videografer Bintuni",
@@ -32,14 +32,16 @@ export const metadata: Metadata = {
     "UMKM Teluk Bintuni",
     "Bintuneo Media",
     "Acerpro EO",
-    "Bintuni Papua Barat"
+    "Bintuni Papua Barat",
+    "Komoditas Papua Barat",
+    "Fotografi Videografi Papua Barat"
   ],
 
   openGraph: {
     title:
       "Bintuneo – Dokumentasi Foto/Video, Event Organizer & Produk Lokal Teluk Bintuni",
     description:
-      "Layanan lengkap untuk kebutuhan visual profesional, penyelenggaraan event, dan pemasaran produk lokal Papua Barat. Eksplorasi dokumentasi, komoditas, dan portofolio Bintuneo.",
+      "Layanan lengkap untuk kebutuhan visual profesional, penyelenggaraan event, dan pemasaran produk lokal Papua Barat. Eksplorasi dokumentasi, komoditas, serta portofolio Bintuneo.",
     url: "https://bintuneo.id",
     type: "website",
     locale: "id_ID",
@@ -56,7 +58,32 @@ export const metadata: Metadata = {
   icons: { icon: "/images/logo-b.jpg" },
 
   robots: { index: true, follow: true },
+
+  other: {
+    "script:ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://bintuneo.id/#organization",
+      "name": "Bintuneo",
+      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
+      "url": "https://bintuneo.id",
+      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "description":
+        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Teluk Bintuni",
+        "addressRegion": "Papua Barat",
+        "addressCountry": "ID"
+      },
+      "areaServed": "Papua Barat",
+      "sameAs": [
+        "https://www.instagram.com/bintuneo"
+      ]
+    })
+  }
 };
+
 
 
 export default function Home() {
