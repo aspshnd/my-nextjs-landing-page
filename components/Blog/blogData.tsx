@@ -6,7 +6,7 @@ const getBlogData = (): Blog[] => [
     id: 1,
     title: "Acerpro Event Organizer: Jaminan Eksekusi Acara Sempurna.",
     paragraph:
-      "Jelajahi portofolio lengkap event yang telah sukses kami eksekusi. Bukti nyata perencanaan dan kelancaran pelaksanaan Acerpro.",
+      "Jelajahi portofolio lengkap event yang telah sukses kami eksekusi. Bukti nyata perencanaan dan kelancaran pelaksanaan.",
     image: getImagePath("/images/blog/event-01.jpg"),
     author: {
       name: "Acerpro",
@@ -36,7 +36,7 @@ const getBlogData = (): Blog[] => [
     id: 3,
     title: "Visual Sinematik: Galeri Karya Bintuneo Media",
     paragraph:
-      "Lihat bagaimana setiap momen diubah menjadi narasi visual berstandar sinematik tinggi. Mencakup dokumentasi proyek bisnis, liputan acara spesial, dan kebutuhan visual pribadi.",
+      "Lihat bagaimana setiap momen diubah menjadi narasi visual sinematik. Mencakup dokumentasi proyek bisnis, acara spesial, dan kebutuhan visual pribadi.",
     image: getImagePath("/images/blog/visual-01.jpg"),
     author: {
       name: "Bintuneo Media",

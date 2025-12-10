@@ -1,3 +1,4 @@
+import WhatsappAcerpro from '@/components/whatsapp/WhatsappAcerpro';
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import { getImagePath } from "@/lib/utils";
@@ -102,13 +103,13 @@ const AcerProPage = () => {
                 </div>
             </div>
             <div>
-              <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
                Acerpro adalah divisi Event Organizer dari Bintuneo Group yang fokus pada eksekusi acara 
                presisi di berbagai skala. Kami menyediakan manajemen acara end-to-end—mulai dari perencanaan 
                strategis, pengurusan perizinan, hingga jaminan teknis tata suara dan keamanan di lapangan. 
                Kami menjamin implementasi yang mulus dan profesional.
               </p>
-            <div className="mb-10 w-full overflow-hidden rounded">
+            <div className="mb-5 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
                     src={getImagePath("/images/blog/blog-details/acerpro/acerpro-team.jpeg")}
@@ -126,43 +127,269 @@ const AcerProPage = () => {
               <h4 className="font-xl mb-6 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                 Event yang sukses kita laksanakan
               </h4>
-              <div className="mb-10 w-full overflow-hidden rounded">
+
+              {/* Event 1 */}
+              <div className="mb-5 w-full overflow-hidden rounded">
                 <div className="w-full relative">
                   <Image
                     src={getImagePath("/images/blog/blog-details/acerpro/event-01.jpeg")}
                     alt="Acerpro Event Portfolio"
-                    width={1000} // Ganti dengan lebar aktual foto Anda (misalnya 800px)
+                    width={1000} 
                     height={500}
+                  />
+                </div>
+              </div>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                    Konser Musik <b>Momentum of Torang</b> adalah salah satu event skala besar yang sukses dieksekusi penuh oleh divisi Acerpro Event Organizer pada 3 September 2022. Proyek ini menegaskan kapabilitas kami dalam mengelola acara publik kompleks.
+              </p>
+                <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                    Sebagai Event Organizer, Acerpro bertanggung jawab atas seluruh manajemen <i>end-to-end</i>, meliputi:
+                </p>
+                <ul className="mb-5 ml-8 list-disc text-body-color text-justify">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">Perencanaan dan desain stage production.</li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">Pengurusan perizinan dan koordinasi keamanan di lapangan.</li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">Penyiapan sistem tata suara dan logistik untuk penampilan berbagai artis Papua (seperti Manggoprap, Mace Purba ft D.ari, Herol, Tahiti Boys, Ichad Bless dan Chellsy Urbon).</li>
+                </ul>
+              <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Keberhasilan acara ini menjadi bukti komitmen Acerpro dalam memberikan eksekusi yang mulus, profesional, dan berstandar tinggi.
+              </p>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Dokumentasi Event:</b>
+              </p>
+              <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Mace Purba ft D.ari Performance
+              </p>
+              <div className="mb-5 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-01.jpeg")}
+                    alt="Mace Purba ft D.ari Performance"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Manggorap Performance
+              </p>
+              <div className="mb-5 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-02.jpeg")}
+                    alt="Manggorap Performance"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Herol Performance Dance
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-03.jpeg")}
+                    alt="Herol Performance Dance"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+
+              {/* Event 2 */}
+              <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Stand Up Comedy Show Desember Ceria</b> adalah acara kolaborasi spesial yang diselenggarakan oleh Bintuneo.
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Event ini merupakan bukti kapabilitas Acerpro dalam mengelola acara hiburan yang melibatkan kolaborasi lintas komunitas, yakni Standup Indo Bintuni, Standup Indo Sorong dan Standup Indo Manokwari.
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Meskipun bertema komedi, Acerpro memastikan aspek teknis dan logistik panggung, tata suara, dan kenyamanan penonton dikelola dengan standar profesional.
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Pengisi Acara Meliputi:</b> Acara ini dimeriahkan oleh komika dari komunitas, termasuk Bagas Anafl, Derico Toko, Irfan Cahyadi, Alex Maryar, Afi Ibrahim, dan Rifki Bmpkr menunjukkan kemampuan manajemen talent dan networking kami di Papua Barat.
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="w-full relative">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-02.jpeg")}
+                    alt="Acerpro Event Portfolio"
+                    width={1000} 
+                    height={500}
+                  />
+                </div>
+              </div>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Dokumentasi Event:</b>
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-021.jpeg")}
+                    alt="Dokumentasi Stand Up Comedy"
+                    fill
+                    className="object-cover object-center"
                   />
                 </div>
               </div>
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/logo-acerpro.jpg")}
-                    alt="Acerpro Event Portfolio"
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-022.jpeg")}
+                    alt="Dokumentasi talent Stand Up Comedy"
                     fill
                     className="object-cover object-center"
                   />
                 </div>
               </div>
-              <div className="flex flex-wrap items-center gap-3">
-                <TagButton text="Laptop" />
-                <TagButton text="Tips" />
-                <TagButton text="Technology" />
-              </div>
-                <div className="mb-5">
-                    <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
-                        Share this post :
-                    </h5>
-                    <div className="flex items-center sm:justify-end">
-                        <SharePost />
-                    </div>
+
+              {/* Event 3 */}
+              <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>TRABAS BERSAMA BUPATI & WAKIL BUPATI TELUK BINTUNI</b> adalah event olahraga motor trail skala besar yang dilaksanakan pada 7 Juni 2025. Acara ini merupakan salah satu proyek 
+                prestisius yang melibatkan kolaborasi langsung dengan <b>Pemerintah Kabupaten Teluk Bintuni</b>, menunjukkan kapabilitas Acerpro dalam mengelola event yang didukung penuh oleh instansi resmi.
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Sebagai Event Organizer, fokus utama Acerpro adalah menjamin kelancaran logistik di jalur trabas yang menantang, mengelola pendaftaran peserta (REGIST 150K), hingga menyelenggarakan pengundian hadiah utama.
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Skala acara ini ditandai dengan daya tarik hadiah utama <b>1 UNIT MOTOR</b> dan berbagai doorprize lainnya, menegaskan kemampuan Acerpro dalam mengkoordinasi event besar yang memiliki dampak publik luas.
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="w-full relative">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-03.jpeg")}
+                    alt="Acerpro Event Portfolio"
+                    width={1000} 
+                    height={500}
+                  />
                 </div>
+              </div>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Dokumentasi Event:</b>
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-033.jpeg")}
+                    alt="Dokumentasi Opening Ceremony Trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-032.jpeg")}
+                    alt="Dokumentasi memasuki jalur trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-034.jpeg")}
+                    alt="Dokumentasi melewati jalur trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+
+              {/* Event 4 */}
+              <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Melanesian Sunset Vibes</b> adalah event musik dan hiburan yang sukses diselenggarakan pada Jumat, 28 November 2025, bertempat di Melanesian Beach Coffee. 
+                Event ini menonjolkan kemampuan Acerpro dalam mengorganisir acara konser dan hiburan yang menarik pengunjung
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Pengelolaan dan koordinasi talent. Acara ini menghadirkan Special Perform dari <b>ICHAD BLESS</b>, 
+                Live Performance <b>DJ CHANDRA PUTRA</b>, dan Mistery Guest, serta komika (pembawa tawa) DERICK dan ALEX.
+              </p>
+              <p className="mb-2 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Event ini menunjukkan profesionalisme Acerpro dalam menciptakan vibe acara yang spesifik dan memastikan seluruh pengisi acara tampil mulus dari Open Gate pukul 15.30 WIT hingga akhir acara.
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="w-full relative">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-04.jpeg")}
+                    alt="Acerpro Event Portfolio"
+                    width={1000} 
+                    height={500}
+                  />
+                </div>
+              </div>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Dokumentasi Event:</b>
+              </p>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-041.jpg")}
+                    alt="Dokumentasi memasuki jalur trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-042.jpg")}
+                    alt="Dokumentasi melewati jalur trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-043.jpg")}
+                    alt="Dokumentasi memasuki jalur trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <Image
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-044.jpg")}
+                    alt="Dokumentasi melewati jalur trabas"
+                    fill
+                    className="object-cover object-center"
+                  />
+                </div>
+              </div>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Portofolio ini adalah bukti nyata dari komitmen Acerpro dalam memberikan eksekusi acara yang mulus, profesional, dan berstandar tinggi di Papua Barat. 
+                Kami tidak hanya menyelenggarakan event, tetapi juga membangun pengalaman yang berkesan.
+              </p>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                <b>Siap memulai proyek Anda selanjutnya?</b>
+              </p>
+              <p className="mb-5 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify">
+                Hubungi tim Acerpro dengan menekan tombol wa di samping untuk mendiskusikan perencanaan acara Anda, mulai dari konser hingga event korporat, dan pastikan implementasinya berjalan sempurna.
+              </p>
+                <div className="items-center justify-between sm:flex">
+                    <div className="mb-5">
+                      <h4 className="mb-3 text-sm font-medium text-body-color">
+                        Popular Tags :
+                      </h4>
+                      <div className="flex items-center">
+                        <TagButton text="Event Organizer" />
+                        <TagButton text="Hiburan Publik" />
+                        <TagButton text="Manajemen Acara" />
+                      </div>
+                    </div>
+                  </div>
             </div>
             </div>
           </div>
         </div>
+        <WhatsappAcerpro />
     </section>
   );
 };

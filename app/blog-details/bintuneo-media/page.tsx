@@ -1,3 +1,4 @@
+import WhatsappMedia from '@/components/whatsapp/WhatsappMedia';
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import { getImagePath } from "@/lib/utils";
@@ -70,6 +71,7 @@ const BintuneoMediaPage = () => {
           </div>
         </div>
       </div>
+      <WhatsappMedia />
     </section>
   );
 };

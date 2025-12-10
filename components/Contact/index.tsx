@@ -1,7 +1,7 @@
 "use client";
 
 const Contact = () => {
-  const PHONE_NUMBER = "628XXXXXXXXXX"; 
+  const PHONE_NUMBER = "6281357351025"; 
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
