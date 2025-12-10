@@ -171,6 +171,7 @@ const BintuneoMediaPage = () => {
                     alt="Momen wisuda Azizah bersama keluarga"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -181,6 +182,7 @@ const BintuneoMediaPage = () => {
                     alt="Momen wisuda Azizah bersama keluarga"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -200,6 +202,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -210,6 +213,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -220,6 +224,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -230,6 +235,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -249,6 +255,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan rapat apoteker oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -259,6 +266,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan rapat apoteker oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -276,6 +284,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -286,6 +295,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -296,6 +306,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -306,6 +317,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -316,6 +328,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -326,6 +339,7 @@ const BintuneoMediaPage = () => {
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>

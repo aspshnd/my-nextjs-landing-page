@@ -165,6 +165,7 @@ const AcerProPage = () => {
                     alt="Acerpro Event Portfolio"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -185,6 +186,7 @@ const AcerProPage = () => {
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -215,6 +217,7 @@ const AcerProPage = () => {
                     alt="Mace Purba ft D.ari Performance"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -228,6 +231,7 @@ const AcerProPage = () => {
                     alt="Manggorap Performance"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -241,6 +245,7 @@ const AcerProPage = () => {
                     alt="Herol Performance Dance"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -265,6 +270,7 @@ const AcerProPage = () => {
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -278,6 +284,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi Stand Up Comedy"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -288,6 +295,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi talent Stand Up Comedy"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -310,6 +318,7 @@ const AcerProPage = () => {
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -323,6 +332,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi Opening Ceremony Trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -333,6 +343,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi memasuki jalur trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -343,6 +354,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi melewati jalur trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -366,6 +378,7 @@ const AcerProPage = () => {
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -379,6 +392,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi memasuki jalur trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -389,6 +403,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi melewati jalur trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -399,6 +414,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi memasuki jalur trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -409,6 +425,7 @@ const AcerProPage = () => {
                     alt="Dokumentasi melewati jalur trabas"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>

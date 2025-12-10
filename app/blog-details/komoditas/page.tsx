@@ -168,6 +168,7 @@ const KomoditasPage = () => {
                     alt="Buah Pala Mentah"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
             </div>
@@ -215,6 +216,7 @@ const KomoditasPage = () => {
                         alt="Buah merah Mentah"
                         fill
                         className="object-cover object-center"
+                        loading="lazy"
                     />
                     </div>
                 </div>
@@ -243,6 +245,7 @@ const KomoditasPage = () => {
                     alt="Minyak Buah Merah"
                     fill
                     className="object-cover object-center"
+                    loading="lazy"
                   />
                 </div>
               </div>
