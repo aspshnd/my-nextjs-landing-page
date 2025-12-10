@@ -4,30 +4,43 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hubungi Kami | Bintuneo",
+  title: "Hubungi Bintuneo | Fotografi, EO, Videografi & Produk Lokal Bintuni",
   description:
-    "Hubungi Bintuneo untuk layanan Fotografi, Wedding Organizer (WO), Event Organizer (EO), serta pemesanan produk Agromos seperti sirup pala, sirup nanas, selai nanas, bubuk pala, dan stik buah merah. Kami siap melayani warga Papua Barat khususnya Bintuni.",
+    "Hubungi Bintuneo untuk pemesanan jasa Fotografi, Videografi, Wedding Organizer (WO), Event Organizer (EO), serta produk komoditas Teluk Bintuni seperti pala, buah merah, sirup, selai, bubuk pala, dan stik buah merah. Siap melayani Papua Barat, khususnya Bintuni.",
   keywords: [
-    "Kabupaten Teluk Bintuni",
+    "Kontak Bintuneo",
+    "Hubungi Bintuneo",
+    "Kontak Fotografer Bintuni",
+    "Kontak Event Organizer Bintuni",
+    "Videografer Papua Barat",
+    "Wedding Organizer Bintuni",
     "Fotografer Bintuni",
     "Videografer Bintuni",
-    "Buah Pala Bintuni",
-    "Buah Pala Papua Barat",
-    "Buah Merah Papua Barat",
+    "Pala Bintuni",
     "Buah Merah Bintuni",
+    "UMKM Teluk Bintuni",
+    "Produk lokal Papua Barat",
     "Minyak Buah Merah Papua Barat",
-    "Minyak Buah Merah Bintuni",
-    "Event Organizer Papua Barat",
-    "Event Organizer Bintuni",
-    "Kontak Bintuneo",
-    "UMKM Bintuni",
-    "Bintuneo",
-    "Bintuneo Media",
-    "Acerpro"
+    "Bintuneo Media"
   ],
-  icons: {
-    icon: "/images/logo b.jpg",
+  openGraph: {
+    title: "Hubungi Bintuneo — Layanan Foto, Video, EO & Produk Lokal Bintuni",
+    description:
+      "Terhubung dengan tim Bintuneo untuk konsultasi dan pemesanan jasa dokumentasi acara serta produk komoditas unggulan Bintuni. Respons cepat melalui WhatsApp.",
+    url: "https://bintuneo.id/contact",
+    type: "website",
+    images: [
+      {
+        url: "/images/logo-b.jpg",
+        width: 800,
+        height: 800,
+        alt: "Hubungi Bintuneo",
+      },
+    ],
+    locale: "id_ID",
   },
+  robots: { index: true, follow: true },
+  icons: { icon: "/images/logo-b.jpg" },
 };
 
 const ContactPage = () => {

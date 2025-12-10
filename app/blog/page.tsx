@@ -1,50 +1,56 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Layanan & Produk | Bintuneo – Fotografer, Videografer, EO & Produk lokal Bintuni",
+  title:
+    "Layanan & Produk – Bintuneo | Foto & Video Profesional, EO, Produk Lokal Bintuni",
   description:
-    "Bintuneo adalah landing page layanan fotografer, Event Organizer (EO) dan tempat memperkenalkan produk Bintuni seperti Pala, Buah Merah, Minyak Buah Merah.",
+    "Temukan layanan fotografi, videografi, Event Organizer (EO), serta komoditas unggulan Teluk Bintuni seperti Pala, Buah Merah, dan Minyak Buah Merah dalam satu platform.",
   keywords: [
-     "Kabupaten Teluk Bintuni",
-    "Fotografer Bintuni",
+    "Layanan Fotografi Bintuni",
     "Videografer Bintuni",
-    "Buah Pala Bintuni",
-    "Buah Pala Papua Barat",
-    "Buah Merah Papua Barat",
-    "Buah Merah Bintuni",
-    "Minyak Buah Merah Papua Barat",
-    "Minyak Buah Merah Bintuni",
-    "Event Organizer Papua Barat",
+    "Jasa Dokumentasi Papua Barat",
     "Event Organizer Bintuni",
-    "UMKM Bintuni",
-    "Bintuneo",
+    "EO Papua Barat",
+    "Foto Video Bintuni",
+    "Branding Visual Papua",
+    "Buah Pala Bintuni",
+    "Pala Papua Barat",
+    "Buah Merah Bintuni",
+    "Minyak Buah Merah Bintuni",
+    "Produk Lokal Bintuni",
+    "UMKM Papua Barat",
     "Bintuneo Media",
-    "Acerpro"
+    "Acerpro",
+    "Bintuneo"
   ],
+
   authors: [{ name: "Bintuneo" }],
+
   openGraph: {
-    title: "Blog Bintuneo — Artikel & Informasi Bintuni Papua Barat",
+    title:
+      "Layanan & Produk Bintuneo – Foto, Video, EO & Komoditas Lokal Bintuni",
     description:
-      "Baca artikel seputar jasa fotografer, Wedding Organizer (WO), Event Organizer (EO) serta produk Agromos dari tanah Papua Barat.",
-    url: "https://bintuneo.com", // nanti diganti saat punya domain
+      "Lihat layanan profesional kami dalam fotografi, videografi, Event Organizer (EO) hingga produk komoditas unggulan Bintuni. Dokumentasi visual kreatif dan produk lokal berkualitas ada di sini.",
+    url: "https://bintuneo.id/blog",
     type: "website",
     images: [
       {
         url: "/images/logo-b.jpg",
         width: 1200,
         height: 630,
-        alt: "Logo Bintuneo"
+        alt: "Bintuneo Portfolio & Produk"
       }
     ],
   },
-  icons: {
-    icon: "/images/logo-b.jpg",
-  },
+
+  icons: { icon: "/images/logo-b.jpg" },
+
+  robots: { index: true, follow: true }
 };
+
 
 
 const Blog = () => {
@@ -52,7 +58,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Layanan & Produk"
-        description="Temukan solusi di Bintuneo: Mulai dari perencanaan event profesional, dukungan dokumentasi visual premium, hingga pasokan komoditas bahan baku terbaik dari Papua."
+        description="Bintuneo Group: Solusi Terintegrasi Papua Barat. Kami menyediakan eksekusi acara yang presisi, layanan media visual sinematik, dan pasokan komoditas unggulan dengan jaminan mutu dan keaslian."
       />
 
       <section className="pb-[120px] pt-[120px]">

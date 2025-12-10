@@ -5,12 +5,41 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Acerpro Event Organizer Portofolio | Bintuneo",
-  description: "Jelajahi portofolio lengkap event yang telah sukses dieksekusi oleh Acerpro, jaminan perencanaan dan kelancaran acara yang sempurna.",
-  icons: {
-    icon: '/images/logo b.jpg',
+  title: "Komoditas Lokal Teluk Bintuni — Pala, Buah Merah & Potensi UMKM | Bintuneo",
+  description:
+    "Eksplorasi komoditas unggulan Teluk Bintuni seperti Pala, Buah Merah, dan produk turunan UMKM lokal. Kenali potensi ekonomi daerah dan nilai yang dibawa setiap produk.",
+  keywords: [
+    "Komoditas Bintuni",
+    "Komoditas Papua Barat",
+    "Pala Bintuni",
+    "Buah Merah Bintuni",
+    "Produk Lokal Bintuni",
+    "UMKM Teluk Bintuni",
+    "Hasil Bumi Papua Barat",
+    "Minyak Buah Merah",
+    "Potensi Ekonomi Bintuni",
+    "Agromos Papua Barat"
+  ],
+  openGraph: {
+    title: "Komoditas Lokal Bintuni — Pala, Buah Merah & UMKM",
+    description:
+      "Informasi mengenai komoditas unggulan Teluk Bintuni dan potensi pengembangan produk lokal berbasis hasil alam Papua Barat.",
+    url: "https://bintuneo.id/blog-details/komoditas",
+    images: [
+      {
+        url: "/images/logo-b.jpg",
+        width: 800,
+        height: 800,
+        alt: "Komoditas Lokal Bintuni"
+      }
+    ],
+    locale: "id_ID",
+    type: "article",
   },
+  icons: { icon: "/images/logo-b.jpg" },
+  robots: { index: true, follow: true },
 };
+
 
 const KomoditasPage = () => {
   return (
@@ -227,9 +256,9 @@ const KomoditasPage = () => {
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Event Organizer" />
-                        <TagButton text="Hiburan Publik" />
-                        <TagButton text="Manajemen Acara" />
+                        <TagButton text="Pasokan Komoditas" />
+                        <TagButton text="Bahan Baku Premium" />
+                        <TagButton text="Buah Merah Murni" />
                       </div>
                     </div>
                   </div>

@@ -6,12 +6,38 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Acerpro Event Organizer Portofolio | Bintuneo",
-  description: "Jelajahi portofolio lengkap event yang telah sukses dieksekusi oleh Acerpro, jaminan perencanaan dan kelancaran acara yang sempurna.",
-  icons: {
-    icon: '/images/logo b.jpg',
+  title: "Acerpro — Portofolio Event Organizer | Bintuneo",
+  description:
+    "Lihat dokumentasi portofolio Acerpro sebagai Event Organizer Bintuni. Menangani berbagai acara kreatif, seremonial, hingga event skala lokal & daerah dengan eksekusi profesional.",
+  keywords: [
+    "Acerpro",
+    "Event Organizer Bintuni",
+    "EO Bintuni",
+    "EO Papua Barat",
+    "Portofolio Event Organizer",
+    "Dokumentasi Event Bintuni",
+    "Bintuneo Media"
+  ],
+  openGraph: {
+    title: "Acerpro — Portofolio Event Organizer Bintuni | Bintuneo",
+    description:
+      "Portofolio resmi Acerpro sebagai EO Bintuni. Menangani berbagai event kreatif dan kegiatan publik dengan pengelolaan rapi dan hasil dokumentasi maksimal.",
+    url: "https://bintuneo.id/about-details/acerpro",
+    images: [
+      {
+        url: "/images/logo-b.jpg",
+        width: 800,
+        height: 800,
+        alt: "Acerpro Event Organizer — Portofolio"
+      }
+    ],
+    locale: "id_ID",
+    type: "article"
   },
+  icons: { icon: "/images/logo-b.jpg" },
+  robots: { index: true, follow: true }
 };
+
 
 const AcerProPage = () => {
   return (

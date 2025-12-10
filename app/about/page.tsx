@@ -1,45 +1,48 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tentang Bintuneo – Fotografer, Videografer, EO & Produk lokal Bintuni",
+  title: "Tentang Bintuneo – Media Produksi Foto/Video & Pengembangan Produk Lokal Bintuni",
   description:
-    "Bintuneo adalah landing page layanan fotografer, Event Organizer (EO) dan tempat memperkenalkan produk Bintuni seperti Pala, Buah Merah, Minyak Buah Merah.",
+    "Profil Bintuneo sebagai penyedia layanan Foto & Videografi profesional, Event Organizer (EO), serta pengembangan komoditas unggulan Bintuni seperti Pala, Buah Merah, dan Minyak Buah Merah.",
   keywords: [
-     "Kabupaten Teluk Bintuni",
-    "Fotografer Bintuni",
-    "Videografer Bintuni",
-    "Buah Pala Bintuni",
-    "Buah Pala Papua Barat",
-    "Buah Merah Papua Barat",
-    "Buah Merah Bintuni",
-    "Minyak Buah Merah Papua Barat",
-    "Minyak Buah Merah Bintuni",
-    "Event Organizer Papua Barat",
-    "Event Organizer Bintuni",
-    "UMKM Bintuni",
     "Bintuneo",
     "Bintuneo Media",
-    "Acerpro"
+    "Acerpro",
+    "Papua Barat",
+    "Kabupaten Teluk Bintuni",
+    "Fotografer Bintuni",
+    "Videografer Bintuni",
+    "Event Organizer Bintuni",
+    "EO Papua Barat",
+    "Dokumentasi Event Papua Barat",
+    "Konten Kreatif Papua",
+    "Buah Pala Bintuni",
+    "Pala Papua Barat",
+    "Buah Merah Papua Barat",
+    "Minyak Buah Merah Bintuni",
+    "UMKM Papua Barat",
+    "Produk Lokal Bintuni"
   ],
   icons: {
-    icon: "/images/logo b.jpg",
+    icon: "/images/logo-b.jpg",
   },
   openGraph: {
-    title: "Tentang Bintuneo – Photographer, Videographer, EO & Produk lokal  Bintuni",
+    title:
+      "Tentang Bintuneo – Jasa Foto/Video Profesional, EO & Komoditas Lokal Bintuni",
     description:
-      "Kenali profil Bintuneo sebagai penyedia jasa fotografer, Event Organizer serta pengembangan produk khas Bintuni.",
-    url: "https://bintuneo.com/about", // nanti diganti setelah punya domain
-    images: "/images/logo b.jpg",
-    type: "website"
+      "Kenali perjalanan Bintuneo dalam pengembangan industri kreatif dan komoditas lokal Papua Barat melalui layanan produksi visual dan penyediaan komoditas unggulan.",
+    url: "https://bintuneo.id/about",
+    images: "/images/logo-b.jpg",
+    type: "website",
   },
   robots: {
     index: true,
     follow: true,
   },
 };
+
 
 const AboutPage = () => {
   return (

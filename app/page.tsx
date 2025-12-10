@@ -8,48 +8,56 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bintuneo – Fotografer, Videografer, EO & Produk lokal Bintuni",
+  title:
+    "Bintuneo – Fotografer & Videografer Profesional, Event Organizer (EO) & Produk Lokal Papua Barat",
   description:
-    "Bintuneo adalah landing page layanan fotografer, Event Organizer (EO) dan tempat memperkenalkan produk Bintuni seperti Pala, Buah Merah, Minyak Buah Merah.",
+    "Bintuneo menyediakan layanan fotografer dan videografer profesional, Event Organizer (EO), serta memasarkan komoditas unggulan Teluk Bintuni: Pala, Buah Merah & Minyak Buah Merah. Satu platform untuk dokumentasi event dan produk lokal Papua Barat.",
   keywords: [
-    "Kabupaten Teluk Bintuni",
     "Fotografer Bintuni",
     "Videografer Bintuni",
+    "Jasa Foto Bintuni",
+    "Dokumentasi Event Papua Barat",
+    "Event Organizer Bintuni",
+    "EO Papua Barat",
+    "WO Bintuni",
+    "Wedding Organizer Bintuni",
+    "Produk Lokal Bintuni",
+    "Buah Merah Bintuni",
+    "Buah Merah Papua Barat",
+    "Minyak Buah Merah",
+    "Minyak Buah Merah Bintuni",
+    "Minyak Buah Merah Papua Barat",
     "Buah Pala Bintuni",
     "Buah Pala Papua Barat",
-    "Buah Merah Papua Barat",
-    "Buah Merah Bintuni",
-    "Minyak Buah Merah Papua Barat",
-    "Minyak Buah Merah Bintuni",
-    "Event Organizer Papua Barat",
-    "Event Organizer Bintuni",
-    "UMKM Bintuni",
-    "Bintuneo",
+    "UMKM Teluk Bintuni",
     "Bintuneo Media",
-    "Acerpro"
+    "Acerpro EO",
+    "Bintuni Papua Barat"
   ],
+
   openGraph: {
-    title: "Bintuneo – Layanan Fotografi, Videografi, Event Organizer & Produk Lokal Bintuni",
+    title:
+      "Bintuneo – Dokumentasi Foto/Video, Event Organizer & Produk Lokal Teluk Bintuni",
     description:
-      "Platform untuk memudahkan warga Papua Barat menemukan fotografer, Videografi, Event Organizer (EO) serta memperkenalkan produk lokal Bintuni.",
-    url: "https://bintuneo.com", // nanti bisa diubah setelah punya domain
+      "Layanan lengkap untuk kebutuhan visual profesional, penyelenggaraan event, dan pemasaran produk lokal Papua Barat. Eksplorasi dokumentasi, komoditas, dan portofolio Bintuneo.",
+    url: "https://bintuneo.id",
+    type: "website",
+    locale: "id_ID",
     images: [
       {
-        url: "/images/logo b.jpg",
-        width: 800,
-        height: 800,
-        alt: "Logo Bintuneo",
+        url: "/images/logo-b.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bintuneo – Media, EO & Produk Lokal",
       },
     ],
-    locale: "id_ID",
-    type: "website",
   },
-  icons: { icon: "/images/logo b.jpg" },
-  robots: {
-    index: true,
-    follow: true,
-  },
+
+  icons: { icon: "/images/logo-b.jpg" },
+
+  robots: { index: true, follow: true },
 };
+
 
 export default function Home() {
   return (

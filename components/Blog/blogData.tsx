@@ -14,7 +14,7 @@ const getBlogData = (): Blog[] => [
       designation: "Event Organizer",
     },
     tags: ["Event Organizer (Acerpro)"],
-    publishDate: "2025",
+    publishDate: "2026",
     url: "/blog-details/acerpro"
   },
   {
@@ -29,7 +29,7 @@ const getBlogData = (): Blog[] => [
       designation: "Komoditas Bintuni",
     },
     tags: ["Produk Komoditas"],
-    publishDate: "2025",
+    publishDate: "2026",
     url: "/blog-details/komoditas"
   },
   {
@@ -44,7 +44,7 @@ const getBlogData = (): Blog[] => [
       designation: "Visual Media",
     },
     tags: ["Visual Media (Bintuneo Media)"],
-    publishDate: "2025",
+    publishDate: "2026",
     url: "/blog-details/bintuneo-media"
   },
 ];
