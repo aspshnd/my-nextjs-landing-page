@@ -167,7 +167,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/wisuda-01.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/wisuda-01.webp")}
                     alt="Momen wisuda Azizah bersama keluarga"
                     fill
                     className="object-cover object-center"
@@ -178,7 +178,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/wisuda-02.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/wisuda-02.webp")}
                     alt="Momen wisuda Azizah bersama keluarga"
                     fill
                     className="object-cover object-center"
@@ -198,7 +198,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-01.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-01.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -209,7 +209,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-02.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-02.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -220,7 +220,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-03.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-03.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -231,7 +231,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-04.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/bola-04.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -251,7 +251,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/farmasi-01.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/farmasi-01.webp")}
                     alt="Dokumentasi kegiatan rapat apoteker oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -262,7 +262,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/farmasi-02.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/farmasi-02.webp")}
                     alt="Dokumentasi kegiatan rapat apoteker oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -280,7 +280,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-01.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-01.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -291,7 +291,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-02.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-02.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -302,7 +302,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-03.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-03.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -313,7 +313,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-04.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-04.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -324,7 +324,7 @@ const BintuneoMediaPage = () => {
                         <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-05.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-05.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"
@@ -335,7 +335,7 @@ const BintuneoMediaPage = () => {
             <div className="mb-3 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-06.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/bintuneo-media/rajaampat-06.webp")}
                     alt="Dokumentasi kegiatan olahraga oleh Bintuneo Media"
                     fill
                     className="object-cover object-center"

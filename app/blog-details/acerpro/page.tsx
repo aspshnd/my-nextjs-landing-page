@@ -161,7 +161,7 @@ const AcerProPage = () => {
             <div className="mb-5 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/acerpro-team.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/acerpro-team.webp")}
                     alt="Acerpro Event Portfolio"
                     fill
                     className="object-cover object-center"
@@ -182,7 +182,7 @@ const AcerProPage = () => {
               <div className="mb-5 w-full overflow-hidden rounded">
                 <div className="w-full relative">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/event-01.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-01.webp")}
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
@@ -213,7 +213,7 @@ const AcerProPage = () => {
               <div className="mb-5 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-01.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-01.webp")}
                     alt="Mace Purba ft D.ari Performance"
                     fill
                     className="object-cover object-center"
@@ -227,7 +227,7 @@ const AcerProPage = () => {
               <div className="mb-5 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-02.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-02.webp")}
                     alt="Manggorap Performance"
                     fill
                     className="object-cover object-center"
@@ -241,7 +241,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-03.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-03.webp")}
                     alt="Herol Performance Dance"
                     fill
                     className="object-cover object-center"
@@ -266,7 +266,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="w-full relative">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/event-02.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-02.webp")}
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
@@ -280,7 +280,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-021.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-021.webp")}
                     alt="Dokumentasi Stand Up Comedy"
                     fill
                     className="object-cover object-center"
@@ -291,7 +291,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-022.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-022.webp")}
                     alt="Dokumentasi talent Stand Up Comedy"
                     fill
                     className="object-cover object-center"
@@ -314,7 +314,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="w-full relative">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/event-03.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-03.webp")}
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
@@ -328,7 +328,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-033.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-033.webp")}
                     alt="Dokumentasi Opening Ceremony Trabas"
                     fill
                     className="object-cover object-center"
@@ -339,7 +339,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-032.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-032.webp")}
                     alt="Dokumentasi memasuki jalur trabas"
                     fill
                     className="object-cover object-center"
@@ -350,7 +350,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-034.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-034.webp")}
                     alt="Dokumentasi melewati jalur trabas"
                     fill
                     className="object-cover object-center"
@@ -374,7 +374,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="w-full relative">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/event-04.jpeg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/event-04.webp")}
                     alt="Acerpro Event Portfolio"
                     width={1000} 
                     height={500}
@@ -388,7 +388,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-041.jpg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-041.webp")}
                     alt="Dokumentasi memasuki jalur trabas"
                     fill
                     className="object-cover object-center"
@@ -399,7 +399,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-042.jpg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-042.webp")}
                     alt="Dokumentasi melewati jalur trabas"
                     fill
                     className="object-cover object-center"
@@ -410,7 +410,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-043.jpg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-043.webp")}
                     alt="Dokumentasi memasuki jalur trabas"
                     fill
                     className="object-cover object-center"
@@ -421,7 +421,7 @@ const AcerProPage = () => {
               <div className="mb-10 w-full overflow-hidden rounded">
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                   <Image
-                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-044.jpg")}
+                    src={getImagePath("/images/blog/blog-details/acerpro/dokumentasi-044.webp")}
                     alt="Dokumentasi melewati jalur trabas"
                     fill
                     className="object-cover object-center"
